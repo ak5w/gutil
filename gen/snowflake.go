@@ -60,7 +60,7 @@ func (w *SnowflakeWorker) GetId() int64 {
 	return ID
 }
 
-func SnowflakeId(workId int64) int64 {
+func SnowflakeId() int64 {
 	/// using a default node.
 	return defaultNode.GetId()
 }
